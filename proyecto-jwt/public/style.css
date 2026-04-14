@@ -1,0 +1,89 @@
+/* Elimina márgenes y rellenos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1f3c88, #2563eb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Tarjeta principal del formulario */
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1f3c88;
+}
+
+/* Texto secundario */
+.subtexto {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Etiquetas de los campos */
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Campos de entrada */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #d62828;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+  opacity: 0.9;
+}
+
+/* Caja de resultados */
+#resultado {
+  margin-top: 18px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  padding: 14px;
+  min-height: 60px;
+  color: #222;
+  white-space: pre-wrap;
+}
