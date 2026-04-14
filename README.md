@@ -6,9 +6,9 @@ Este proyecto consiste en el desarrollo de un sistema de autenticación utilizan
 
 Benjamín: Encargado de instalar Node.js y las dependencias del proyecto, configurar Express.js, crear server.js e implementar la ruta de login.
 
-Sebastian: Se encargó del diseño de la interfaz, creación de index.html, style.css, script.js y de las pruebas visuales del sistema.
+Sebastian: Se encargó del diseño de la interfaz, creación de index.html, style.css, script.js y de las pruebas visuales del sistema  y elaborar el informe final.
 
-Vicente: Encargado de crear el middleware authMiddleware.js, proteger la ruta privada, implementar el cierre de sesión y elaborar el informe final.
+Vicente: Encargado de crear el middleware authMiddleware.js, proteger la ruta privada, implementar el cierre de sesión.
 
 ## Archivos del proyecto
 
