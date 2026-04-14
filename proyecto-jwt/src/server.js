@@ -84,12 +84,10 @@ app.get("/perfil", authMiddleware, (req, res) => {
     user: req.user
   });
 });
-
 // Ruta para cerrar sesión
 app.post("/logout", (req, res) => {
   // Elimina la cookie del token
   res.clearCookie("token");
-
   // Confirma el cierre de sesión
   res.status(200).json({
     message: "Sesión cerrada correctamente."
