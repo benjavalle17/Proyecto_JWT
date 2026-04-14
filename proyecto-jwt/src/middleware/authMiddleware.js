@@ -15,7 +15,6 @@ function authMiddleware(req, res, next) {
       message: "Acceso denegado. No existe token."
     });
   }
-
   try {
     // Verifica si el token es válido y no ha expirado
     const decoded = jwt.verify(token, SECRET_KEY);
@@ -32,6 +31,5 @@ function authMiddleware(req, res, next) {
     });
   }
 }
-
 // Exporta el middleware para usarlo en el servidor
 module.exports = authMiddleware;
